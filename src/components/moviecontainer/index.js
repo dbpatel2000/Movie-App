@@ -72,7 +72,7 @@ class MovieContainer extends Component {
             this.props.userAction(changedUser);
             let email = this.props.user.email;
             Axios.post('https://gentle-woodland-25742.herokuapp.com/add', {
-                "email" : "dev@gmail.com",
+                "email" : email,
 	            "favorites" : [ ...tempuser.favorites, this.state.movieData]
             })
         }
