@@ -1,0 +1,57 @@
+.Header {
+    z-index: 2;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.20);
+    padding: 10px 0px;
+}
+
+.h-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.far {
+    font-size: 25px;
+    margin: 3px 5px 3px 0px;
+    color: #555555;
+}
+
+.i-display{
+    display: none;
+}
+
+.h-logotext {
+    display: flex;
+    font-family: 'Montserrat';
+    font-size: 30px;    
+    text-align: center;
+    align-items: center;
+}
+
+.h-m-login {
+    font-size: 18px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    border: none;
+    background-color: white;
+}
+
+.favorite {
+    font-size: 24px;
+    color: rgb(255, 122, 144);
+    margin: 0px 10px;
+}
+
+@media screen and (max-width:500px) {
+    .i-display {
+        display: inline;
+    }
+
+    .h-menu {
+        display: none;
+    }
+}
+
+
+
+

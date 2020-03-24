@@ -1,0 +1,15 @@
+
+
+.app-header {
+    z-index: 5;
+}
+.app-auth {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background: rgba(138, 138, 138, 0.5);
+    z-index: 10;
+}
